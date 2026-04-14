@@ -71,3 +71,4 @@ export default defineConfig([
   },
 ])
 ```
+# coin-gecko-dashboard
