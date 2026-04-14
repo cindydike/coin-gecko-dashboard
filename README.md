@@ -2,25 +2,27 @@
 
 A high-performance, premium cryptocurrency dashboard that provides real-time market data, trending insights, and detailed coin analytics. Built with a modern, glassmorphic UI using React 19 and the CoinGecko API.
 
-## ✨ Features
+[🔗 Live Preview](https://coin-gecko-dashboard.mrceezay.workers.dev/)
 
-- **🌍 Global Market Stats**: Instant overview of total market capitalization, 24h trading volume, and Bitcoin dominance.
-- **🔥 Trending Coins**: Discover what's hot with real-time trending data directly from CoinGecko.
-- **📊 Interactive Coin Table**: Responsive ranking of top cryptocurrencies featuring:
+## Features
+
+- **Global Market Stats**: Instant overview of total market capitalization, 24h trading volume, and Bitcoin dominance.
+- **Trending Coins**: Discover what's hot with real-time trending data directly from CoinGecko.
+- **Interactive Coin Table**: Responsive ranking of top cryptocurrencies featuring:
   - Dynamic price tracking (1h, 24h, 7d changes).
   - Small-scale sparkline charts for quick visual trend analysis.
   - High-performance sorting and pagination via **TanStack Table**.
-- **📈 Detailed Analytics**: Dedicated pages for every coin with:
+- **Detailed Analytics**: Dedicated pages for every coin with:
   - Customizable **Recharts** price history (24H, 7D, 30D, 1Y).
   - Comprehensive market metrics (ATH, ATL, Circulating Supply, etc.).
   - Rich descriptive content.
-- **🔍 Smart SearchBar**: Quick search functionality to find and navigate to specific assets.
-- **⚡ Performance First**:
+- **Smart SearchBar**: Quick search functionality to find and navigate to specific assets.
+- **Performance First**:
   - **SWR Integration**: Efficient data fetching with caching and revalidation.
   - **Vite Proxy**: Seamless development workflow with proxied API requests.
   - **Glassmorphic UI**: Premium aesthetics with a responsive, state-of-the-art design.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [React 19](https://react.dev/)
 - **Build Tool**: [Vite 7](https://vitejs.dev/)
@@ -31,7 +33,7 @@ A high-performance, premium cryptocurrency dashboard that provides real-time mar
 - **Charts**: [Recharts](https://recharts.org/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -64,7 +66,7 @@ A high-performance, premium cryptocurrency dashboard that provides real-time mar
 4. **Open the application**:
     Navigate to `http://localhost:5173` in your browser.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -76,7 +78,7 @@ src/
 └── main.tsx        # React entry point
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
