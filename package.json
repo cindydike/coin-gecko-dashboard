@@ -4,7 +4,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
+		"dev": "vite --host 0.0.0.0",
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
 		"preview": "bun run build && vite preview",
@@ -12,8 +12,15 @@
 		"cf-typegen": "wrangler types"
 	},
 	"dependencies": {
+		"@tailwindcss/vite": "^4.2.2",
+		"@tanstack/react-table": "^8.21.3",
+		"lucide-react": "^1.8.0",
 		"react": "^19.2.0",
-		"react-dom": "^19.2.0"
+		"react-dom": "^19.2.0",
+		"react-router-dom": "^7.14.0",
+		"recharts": "^3.8.1",
+		"swr": "^2.4.1",
+		"tailwindcss": "^4.2.2"
 	},
 	"devDependencies": {
 		"@cloudflare/vite-plugin": "^1.31.2",
